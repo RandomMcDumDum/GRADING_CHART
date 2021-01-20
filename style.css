@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #86bbd8;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: #f6ae2d;
+    padding: 20px 0;
+    min-height: 400px;
+    min-width: 800px;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.container h1 {
+    color: #ee6805;
+    padding: 0 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form input {
+    background-color: #c2ac93;
+    text-align: center;
+    border: 0;
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 15px;
+    border-radius: 10px;
+    width: 75%;
+}
+
+.form input:focus {
+    outline: 0;
+}
+
+.chart-container {
+    color: #001f3d;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.chart-container div {
+    width: 50%;
+}
+
+.chart-container div h2 {
+    font-size: 30px;
+}
+
+.chart-container div p {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 12px;
+    margin: 0;
+    border-bottom: 2px #c2ac93 solid;
+}
+
+.chart-container div p:last-child{
+    border-bottom: 0;
+}
+
+
+
