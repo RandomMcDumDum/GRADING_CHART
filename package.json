@@ -4,7 +4,7 @@
   "description": "A project repo for Jocy's grading chart project",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "author": "Christian Rodriguez",
   "license": "ISC",
