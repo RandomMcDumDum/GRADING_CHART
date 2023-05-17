@@ -18,6 +18,12 @@ app.get('/', function(req, res) {
     res.render('index.ejs')
 })
 
+// Get input from the User and place input in local storage for future use
+// app.put('/getQuestions', function(req, res) {
+//     console.log("Added to Local Storage")
+//     res.json("Added to Local Storage")
+// })
+
 app.listen(process.env.PORT || PORT, ()=>{
     console.log(`Server running on port ${PORT}, you better go catch it!`)
 })
