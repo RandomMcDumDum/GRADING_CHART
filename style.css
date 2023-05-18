@@ -1,6 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 
+body {
+    background-color: #397097;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+#applicationContainer {
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 1rem;
+    margin: 1rem;
+    margin-top: 0;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+/* .form{
+    
+    
+    border-radius: 0.3rem;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+} */
+
+.form-container {
+    padding: 0;
+}
+
+.form input {
+    background-color: rgba(0, 0,0, 0.20);
+    color: rgba(0, 0,0, 0.15);
+    text-align: center;
+    border: 0;
+    font-size: 20px;
+    border-radius: .3rem;
+    width: 100%;
+    padding-top: .20rem;
+    padding-bottom: .20rem;
+}
+
+.form input:focus {
+    outline: 0;
+} 
+
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    flex: 1 1 auto;
+}
+
+tbody {
+    min-width: 100%;
+}
+
+
+
+tr {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+
+
+/* 
 * {
     box-sizing: border-box;
 }
@@ -81,4 +160,4 @@ body {
 }
 
 
-
+ */
