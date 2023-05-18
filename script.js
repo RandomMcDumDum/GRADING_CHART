@@ -1,6 +1,6 @@
 const form = document.getElementById('form');
 const questions = document.getElementById('number');
-const table = document.querySelector("table")
+const table = document.querySelector("tbody")
 
 
 // Calculate the Grades
@@ -26,7 +26,7 @@ function updateDOM(percentagesArr){
     table.innerHTML = ""
 
     for(let number in percentagesArr){
-        table.innerHTML += document.createElement("tr").innerHTML = `<th>${number}</th><th>${Math.ceil(percentagesArr[number])}</th>`
+        table.innerHTML += document.createElement("tr").innerHTML = `<td>${number}</td><td>${Math.ceil(percentagesArr[number])}%</td>`
     }
 }
 
